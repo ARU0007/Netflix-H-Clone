@@ -6,11 +6,31 @@
 .main{
     background-image: url("asset/image/backGround.jpg");
     height: 93vh;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .main .box{
     height: 93vh;
     width: 100%;
     opacity: 0.47;
     background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    width: 114px;
+    position: relative;
+    z-index: 1;
 }
