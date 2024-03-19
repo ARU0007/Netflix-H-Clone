@@ -34,3 +34,8 @@ nav img{
     position: relative;
     z-index: 1;
 }
+
+nav button{
+    position: relative;
+    z-index: 1;
+}
