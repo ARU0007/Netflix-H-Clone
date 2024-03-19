@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url("asset/image/backGround.jpg");
+    height: 93vh;
+    background-size: cover;
+}
+.main .box{
+    height: 93vh;
+    width: 100%;
+    opacity: 0.47;
+    background-color: black;
+}
