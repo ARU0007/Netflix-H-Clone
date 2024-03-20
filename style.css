@@ -20,7 +20,7 @@ body {
 .main .box {
   height: 100vh;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.6;
   background-color: black;
   position: absolute;
   top: 0;
@@ -67,59 +67,70 @@ nav button {
 .text > :first-child {
   font-weight: bolder;
   font-size: 47px;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .text > :nth-child(2) {
   font-weight: 499;
   font-size: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 28px;
   text-align: center;
 }
 .text > :nth-child(3) {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
-.seprate{
+.seprate {
   height: 5px;
   background-color: rgb(69 67 67);
   margin: 0;
 }
 
-.btn{
-    padding: 3px 8px;
-    background-color: whitesmoke;
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 0.25rem;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
 }
-.btn-red{
-    background: rgb(229, 9, 20);
-    color: white;
-    padding: 3px 24px;
-    font-size: 20px;
-    border-radius: 0.25rem;
-    border-color: rgb(229, 9, 20);
-}
-
-.main input{
-    padding: 11px 101px 8px 14px;
-    font-weight: 900;
-    font-size: 12px;
-    border-radius: 4px;
-    color: whitesmoke;
-    background-color: rgba(23,23, 23, 0.7);  
-    border: 1px solid rgba(246, 238, 238, 0.5);
-}
-.text-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-
+.btn-red-si {
+  background-color: red;
+  color: white;
+  border-color: red;
 }
 
-.btn-red-si{
-    background-color: red;
-    color:white;
+.btn-red {
+  background: rgb(229, 9, 20);
+  color: white;
+  padding: 7px 20px;
+  font-size: 20px;
+  border-radius: 0.25rem;
+  border-color: rgb(229, 9, 20);
+  font-weight: 400;
+}
+
+.main input {
+  padding: 14px 129px 12px 16px;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 4px;
+  color: whitesmoke;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.text-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input{
+    margin-left: 2rem;
 }
