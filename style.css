@@ -131,6 +131,16 @@ nav button {
   gap: 10px;
 }
 
-input{
-    margin-left: 2rem;
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sec1-img img{
+    width: 30vw;
 }
