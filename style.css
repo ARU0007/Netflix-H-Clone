@@ -179,3 +179,39 @@ section.first > div :nth-child(2){
     margin-top: 0.4rem;
     
 }
+
+.faq h2{
+    text-align:center;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.faqbox:hover{
+    background-color: rgb(75, 75, 75);
+    
+}
+
+/* .faqbox svg{
+    filter: invert(1);
+} */
+
+.faqbox{
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    transition: all 0.5s ease-out;
+    font-size: 1.2rem;
+    padding: 17px;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
