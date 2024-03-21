@@ -11,14 +11,14 @@ body {
 
 .main {
   background-image: url("asset/image/backGround.jpg");
-  height: 100vh;
+  height: 90vh;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 .main .box {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   opacity: 0.6;
   background-color: black;
@@ -39,8 +39,12 @@ nav {
 
 nav img {
   width: 150px;
+  padding-top: 16px;
   position: relative;
   z-index: 1;
+}
+.top-left{
+    padding-top: 16px;
 }
 
 nav button {
@@ -183,8 +187,7 @@ section.first > div :nth-child(2){
 .faq h2{
     text-align:center;
     font-size: 40px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    
 }
 
 .faq{
@@ -192,6 +195,8 @@ section.first > div :nth-child(2){
     color: white;
     text-align: center;
     align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     
 }
 
@@ -214,4 +219,73 @@ section.first > div :nth-child(2){
     margin: auto;
     justify-content: space-between;
     margin-bottom: 0.5rem;
+}
+
+.faq p{
+    font-size: 15px;
+    margin-top: 2.5rem; 
+    margin-bottom: 1rem;
+}
+
+.faq input{
+    padding: 10px 79px 8px 12px;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.faq .btn-red{
+    background: rgb(229, 9, 20);
+    color: white;
+    padding: 7px 8px;
+    font-size: 15px;
+    border-radius: 0.25rem;
+    border-color: rgb(229, 9, 20);
+    font-weight: 400;
+}
+
+/* FOOTER SECTION */
+footer{
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 80vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+
+.footer a{
+    color: white;
+    font-size: 13px;
+    font-family: none;
+    
+}
+
+footer .btn{
+    margin: 2rem 0;
+}
+
+footer .questions{
+    padding: 34px 0;
+    font-family: none;
+    
+    
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.footer-txt{
+    font-size: 13px;
 }
