@@ -1,0 +1,117 @@
+@media screen and (max-width: 960px) {
+
+    .first{
+        flex-wrap: wrap;
+    }
+    section.first > div :nth-child(1) {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+    section.first > div :nth-child(2) {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 0.4rem;
+        text-align: center;
+    }
+    /* .secImg video {
+        position: absolute;
+        top: 94px;
+        right: 87px;
+        height: 257px;
+    } */
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    .main input {
+        padding: 14px 86px 7px 16px;
+        font-weight: 400;
+        font-size: 11px;
+        border-radius: 4px;
+        color: whitesmoke;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgba(246, 238, 238, 0.5);
+        margin-bottom: 0.5rem;
+    }
+    .btn-red {
+        background: rgb(229, 9, 20);
+        color: white;
+        padding: 7px 20px;
+        font-size: 14px;
+        border-radius: 0.25rem;
+        border-color: rgb(229, 9, 20);
+        font-weight: 400;
+    }
+
+
+
+
+    .sec-three-video {
+        position: absolute;
+        top: 28px;
+        right: 63px;
+        height: 106px;
+    }
+    .sec-three-r-img {
+        width: 318px;
+        position: relative;
+        z-index: 10;
+    }
+    .sec-one-video {
+        position: absolute;
+        top: 44px;
+        right: 46px;
+        height: 129px;
+    }
+    section.first > div :nth-child(1) {
+        font-size: 2.1rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .faq h2 {
+        text-align: center;
+        font-size: 31px;
+        margin-bottom: 0.6rem;
+    }
+    
+    .faq p {
+        font-size: 15px;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    footer {
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        max-width: 80vw;
+        margin: auto;
+        /* padding: 34px; */
+    }
+    footer .questions {
+        padding: 19px 0;
+        font-family: none;
+    }
+    .footer-txt {
+        font-size: 13px;
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
